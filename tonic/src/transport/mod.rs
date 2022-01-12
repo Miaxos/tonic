@@ -101,6 +101,8 @@ pub use self::server::{NamedService, Server};
 #[doc(inline)]
 pub use self::service::Or;
 #[doc(inline)]
+pub use self::service::Routes;
+#[doc(inline)]
 pub use self::service::TimeoutExpired;
 pub use self::tls::Certificate;
 pub use hyper::{Body, Uri};
